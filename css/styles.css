@@ -1,0 +1,25 @@
+
+.nav-bar {
+  background-color: rgb(100,100,100);
+  margin-bottom: 5px;
+  height: 60px;
+}
+
+.nav-bar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#homeLink {
+  text-align: left;
+}
+
+.otherLinks {
+  text-align: right;
+}
