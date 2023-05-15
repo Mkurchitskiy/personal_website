@@ -16,10 +16,42 @@
   margin-right: 10px;
 }
 
-#homeLink {
+#home_Link {
   text-align: left;
 }
 
+#home_logo {
+  position: relative;
+  width: 60px;
+  background-color: transparent;
+}
+
 .otherLinks {
+  position: sticky;
   text-align: right;
 }
+
+.social-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(100,100,100);
+  padding: 10px;
+}
+
+.social-content {
+  text-align: center;
+}
+
+.social-content a{
+  display: inline-block;
+  margin: 0 10px;
+  color: black;
+  text-decoration: none;
+}
+
+#social-logo {
+  width: 50px;
+}
+
