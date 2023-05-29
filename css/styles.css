@@ -1,14 +1,14 @@
 * {
-  background-color: rgb(80, 80, 80);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 .nav_bar {
+  background-color: rgb(80, 80, 80);
   margin-bottom: 5px;
   height: 60px;
-  padding-left: 120px; /* Adjust the value as needed */
+  padding-left: 0px; /* Adjust the value as needed */
 }
 
 .nav_bar ul {
@@ -29,12 +29,20 @@
 
 #home_logo {
   position: absolute;
-  top: 10px;
-  left: 10px;
   width: 60px;
 }
 
+.other_links {
+  position: relative;
+  text-align: right;
+}
+
+.body {
+  padding: 5px;
+}
+
 .social-bar {
+  background-color: rgb(80, 80, 80);
   position: fixed;
   bottom: 0;
   left: 0;
