@@ -25,10 +25,37 @@ body {
 
 /*Form Container CSS*/
 #form-container {
+  background-color: #909090;
   position: relative;
   margin: .3em;
-  border: 1px solid black;
+  border: 2px solid black;
   padding: .3em;
+}
+
+#form-container h1 {
+  font-size: 2em;
+}
+
+#contact-form {
+  text-align: center;
+}
+
+.form-containers {
+  padding: .5em;
+}
+
+#contact-form label {
+  display: block;
+  text-align: left;
+  font-size: 1.25em;
+}
+
+#contact-form input {
+  width: 90%;
+}
+
+#contact-form textarea {
+  width: 90%;
 }
 
 /*Social Bar CSS*/
