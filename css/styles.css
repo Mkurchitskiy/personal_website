@@ -23,6 +23,13 @@ body {
   width: 60px;
 }
 
+/* About Myself Container CSS */
+
+#info-container {
+  margin: .3em;
+  border: 2px solid black;
+}
+
 /*Form Container CSS*/
 #form-container {
   background-color: #909090;
@@ -33,7 +40,9 @@ body {
 }
 
 #form-container h1 {
+  text-align: center;
   font-size: 2em;
+  font-weight: 600;
 }
 
 #contact-form {
@@ -56,6 +65,12 @@ body {
 
 #contact-form textarea {
   width: 90%;
+}
+
+#submit-button {
+  margin-bottom: .75em;
+  padding: .5em;
+  font-size: 1.2em;
 }
 
 /*Social Bar CSS*/
