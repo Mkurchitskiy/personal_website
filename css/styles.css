@@ -2,6 +2,7 @@ body {
 
 }
 
+/*Home Logo*/
 #home_Link {
   text-align: left;
   position: relative;
@@ -12,6 +13,13 @@ body {
   width: 60px;
 }
 
+/*Form Container CSS*/
+#form-container {
+  border: 3px solid black;
+  postion: absolute;
+}
+
+/*Social Bar CSS*/
 #social-bar {
   padding-top: 5px;
   background-color: rgb(80, 80, 80);
