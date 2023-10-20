@@ -1,3 +1,12 @@
+
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
+
+/*-- Base Style for 320 pixel min-width --*/
+html {
+  font-family: 'Abhaya Libre', serif;
+}
+
 body {
 
 }
@@ -9,14 +18,17 @@ body {
 }
 
 #home_logo {
-  position: absolute;
+  position: relative; /*temp*/
+  /*position: absolute;*/ 
   width: 60px;
 }
 
 /*Form Container CSS*/
 #form-container {
-  border: 3px solid black;
-  postion: absolute;
+  position: relative;
+  margin: .3em;
+  border: 1px solid black;
+  padding: .3em;
 }
 
 /*Social Bar CSS*/
@@ -44,5 +56,3 @@ body {
 #social-logo {
   width: 50px;
 }
-
-
