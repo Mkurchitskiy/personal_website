@@ -1,5 +1,5 @@
 body {
-  
+
 }
 
 #home_Link {
@@ -12,7 +12,7 @@ body {
   width: 60px;
 }
 
-.social-bar {
+#social-bar {
   padding-top: 5px;
   background-color: rgb(80, 80, 80);
   position: fixed;
@@ -22,11 +22,11 @@ body {
   padding: 10px;
 }
 
-.social-content {
+#social-content {
   text-align: center;
 }
 
-.social-content a {
+#social-content a {
   display: inline-block;
   margin: 0 10px;
   color: black;
