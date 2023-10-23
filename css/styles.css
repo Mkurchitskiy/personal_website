@@ -28,15 +28,42 @@ body {
 #info-container {
   margin: .3em;
   border: 2px solid black;
+  background-color: #C0C0C0;
+}
+
+#info-container h1 {
+  display: block;
+  margin: .25em;
+  text-align: left;
+  font-size: 1.75em;
+  font-weight: 700;
+}
+
+#info-container ul {
+  display: block;
+  margin: .5em;
+  list-style-type: circle;
+  font-size: 1.3em;
+}
+
+#info-container ul li {
+  display: block;
+  margin:.25em .4em;
+}
+
+#info-container p {
+  margin: .2em .5em;
+  font-size: 1.35em;
 }
 
 /*Form Container CSS*/
 #form-container {
-  background-color: #909090;
+  display: block;
   position: relative;
   margin: .3em;
   border: 2px solid black;
   padding: .3em;
+  background-color: #C0C0C0;
 }
 
 #form-container h1 {
@@ -75,13 +102,15 @@ body {
 
 /*Social Bar CSS*/
 #social-bar {
+  display: block;
+  border-top: 2px solid black;
+  padding: 10px;
   padding-top: 5px;
-  background-color: rgb(80, 80, 80);
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
-  padding: 10px;
+  background-color: #C0C0C0;
 }
 
 #social-content {
