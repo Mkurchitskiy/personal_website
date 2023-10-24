@@ -65,7 +65,13 @@ body {
 }
 
 .event-timeline {
-  
+  display: flex;
+  margin: .25em;
+  border: 5px solid black;
+  padding: .25em;
+
+
+
 }
 
 .vertical-line {
