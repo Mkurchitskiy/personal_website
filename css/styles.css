@@ -57,8 +57,23 @@ body {
 }
 
 /* Timeline Container CSS */
+#timeline-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px /* Change Size of Timeline Container */
+}
 
+.event-timeline {
+  
+}
 
+.vertical-line {
+  border: 2px solid black;
+  width: 10px;
+  height: 100%; /* Line Height of Timeline Container */
+  background-color: #A9A9A9; 
+}
 
 /*Form Container CSS*/
 #form-container {
