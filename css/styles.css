@@ -19,9 +19,29 @@ body {
 
 #home_logo {
   position: relative; /*temp*/
-  /*position: absolute;*/ 
+  /*position: absolute;*/
   width: 60px;
 }
+
+#nav_bar {
+  display: flex;
+  margin-bottom: .5em;
+  border-bottom: 2px solid black;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #C0C0C0;
+}
+
+#nav-links ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+#nav-links ul li {
+  margin: 10px; /* or any space you want between the links */
+}
+
 
 /* About Myself Container CSS */
 
