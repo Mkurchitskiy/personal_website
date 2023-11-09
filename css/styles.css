@@ -39,6 +39,11 @@ body {
   font-weight: 700;
 }
 
+#profile-picture {
+  display: block;
+  width: 5em;
+}
+
 #info-container ul {
   display: block;
   margin: .5em;
@@ -69,9 +74,6 @@ body {
   margin: .25em;
   border: 5px solid black;
   padding: .25em;
-
-
-
 }
 
 .vertical-line {
