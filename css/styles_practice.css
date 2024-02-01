@@ -1,0 +1,25 @@
+
+* {
+    background-color: black;
+}
+
+
+#main-container {
+    display: grid;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#nave-bar-container {
+    
+}
+
+#nave-bar-container h1 {
+    color: white;
+}
+
+#nave-bar-container h2 {
+    color: white;
+}
